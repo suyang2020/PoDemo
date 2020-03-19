@@ -1,0 +1,10 @@
+test_search:
+  test_search_001:
+    search_text: "hello"
+    screenshot_name: "search_hello"
+  test_search_002:
+    search_text: "123"
+    screenshot_name: "search_123"
+test_search1:
+  - "su"
+  - "00"

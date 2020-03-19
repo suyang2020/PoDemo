@@ -1,0 +1,27 @@
+test_login_error:
+    test_login_003:
+      username: "18510626521"
+      pwd: 'sy12312'
+      message: '不正确'
+      screen_name: 'test_login_003'
+    test_login_002:
+      username: "8510626521"
+      pwd: 'sy123123'
+      message: '不正确'
+      screen_name: 'test_login_002'
+    test_login_004:
+      username: "18510626521"
+      pwd: 'Sy123123'
+      message: '不正确'
+      screen_name: 'test_login_004'
+test_login_error1:
+    test_login_003:
+      username: "18510626521"
+      pwd: 'sy12312'
+    test_login_002:
+      username: "8510626521"
+      pwd: 'sy123123'
+    test_login_004:
+      username: "18510626521"
+      pwd: 'Sy123123'
+
