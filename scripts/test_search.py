@@ -35,7 +35,7 @@ class TestSearch:
         # 截图
         self.search_page.screenshot(screenshot_name)
         # 将截图上传到报告中
-        allure.attach.file(r".\screen\%s.png"%screenshot_name, screenshot_name, attachment_type=allure.attachment_type.PNG)
+        allure.attach.file(r"./screen/%s.png"%screenshot_name, screenshot_name, attachment_type=allure.attachment_type.PNG)
         # 点击返回
         self.search_page.click_back()
 
