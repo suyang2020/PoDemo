@@ -33,7 +33,7 @@ class TestLogin:
         # 点击登录
         print("点击登录")
         # 判断是否登录成功
-        assert 1
+        assert 0
     
     # @pytest.mark.parametrize("args", login_with_key('test_login_error1'))
     # def test_login_error1(self, args):
